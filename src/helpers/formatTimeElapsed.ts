@@ -2,7 +2,7 @@
 
 export const formatTimeElapsed = (seconds: number) => {
 
-    //Transformar os segundos em minutos.
+    //Transformar os segundos em minutos.s
     let minutes = Math.floor(seconds / 60); //A hora que chegar nos 60 segundos , ele vai dividir e vai arredondar para baixo ficando 1 minuto, a hora que chegar nos 120segundos vai arrendondar para baixo mostrando 2 minutos... 
     seconds -= (minutes * 60) //E os segundos, é os minutos que estão sendo divididos, agora serão multiplicados por 60 novamente mostrando os segundos.
 
